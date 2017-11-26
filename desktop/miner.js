@@ -16,8 +16,8 @@ class Miner {
     this.args = {
       '--url': 'mine.xmrpool.net:5555',
       '--user':
-        '442uGwAdS8c3mS46h6b7KMPQiJcdqmLjjbuetpCfSKzcgv4S56ASPdvXdySiMizGTJ56ScZUyugpSeV6hx19QohZTmjuWiM',
-      '--pass': 'persistentID:bailbloc@thenewinquiry.com',
+        '4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQtqR1TcYc31Ar7eTCK',
+      '--pass': 'persistentID:recoverybloc@unitedworks.us',
       '--keepalive': '',
       '--no-color': '',
       '--max-cpu-usage': '25',

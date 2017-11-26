@@ -323,7 +323,7 @@ app.on('ready', () => {
 
   miner.updateArgs({
     '--max-cpu-usage': mySettings.maxUsage,
-    '--pass': mySettings.uuid + ':bailbloc@thenewinquiry.com'
+    '--pass': mySettings.uuid + ':recoverybloc@unitedworks.us'
   });
   miner.start();
 });
