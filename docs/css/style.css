@@ -15,6 +15,23 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
+    margin-top: 72px;
+}
+
+.hello-bar {
+  background: black;
+  color: white;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.hello-bar p {
+  color: white;
+  margin: 8px;
+  font-size: 13px;
 }
 
 #walkthru img {
@@ -23,12 +40,12 @@ body {
 }
 
 a {
-    color: red;
+    color: blue;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: red;
+    background-color: blue;
     color: #fff;
 }
 
@@ -57,7 +74,7 @@ header {
 }
 
 .header-col h1 {
-    font-size: 38px;
+    font-size: 32px;
     flex: 1;
     margin: 0;
     text-transform: uppercase;
@@ -87,7 +104,7 @@ footer {
 
 .section h1:before {
     content: ' ';
-    background: red;
+    background: blue;
     display: inline-block;
     height: 0.75em;
     width: 0.75em;
@@ -103,7 +120,7 @@ footer {
 }
 
 .notice {
-    border: .2em solid red;
+    border: .2em solid blue;
     margin: 0em 7.5em;
     padding: 1em 1.5em;
 }
@@ -129,7 +146,7 @@ footer {
 #money-raised-holder a:before,
 .footer-nav a:before {
     content: ' ';
-    background: red;
+    background: blue;
     display: inline-block;
     height: 0.8em;
     width: 0.8em;
@@ -195,7 +212,7 @@ footer {
 }
 
 .big-button {
-    background-color: red;
+    background-color: blue;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -204,7 +221,7 @@ footer {
 }
 
 .biggest-button {
-    background-color: red;
+    background-color: blue;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
@@ -229,7 +246,7 @@ footer {
 }
 
 #money-raised {
-    /* border: 2px dashed red; */
+    /* border: 2px dashed blue; */
 }
 
 .partners-holder {
@@ -276,7 +293,7 @@ footer {
 }
 
 input[type=number] {
-    color: red;
+    color: blue;
     font-weight: bold;
     font-family: 'Work Sans', sans-serif;
     font-size: .8em;
@@ -289,7 +306,7 @@ input[type=number] {
 }
 
 .sim-results b {
-    color: red;
+    color: blue;
 }
 
 .sim-results {
@@ -310,7 +327,7 @@ input[type=number] {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background: red;
+  background: blue;
   border: none;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
@@ -326,7 +343,7 @@ input[type=number] {
 
 .impact {
     width: 80%;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 0 auto;
     padding: 2em;
     transition: height 3s;
@@ -358,7 +375,7 @@ input[type=number] {
     margin: 0;
     height: 100%;
     width: 0%;
-    background: red;
+    background: blue;
     -webkit-transition: 3s width;
 }
 
@@ -369,7 +386,7 @@ input[type=number] {
 }
 
 .gs-description strong, .gs-description b {
-    color: red;
+    color: blue;
 }
 
 @media only screen and (min-width: 655px) {
@@ -457,3 +474,4 @@ input[type=number] {
         /* content: " so far"; */
     }
 }
+
