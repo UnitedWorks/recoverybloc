@@ -219,27 +219,12 @@ app.on('ready', () => {
   tray = new Tray(activeTrayImage);
   contextMenu = Menu.buildFromTemplate([
     {
-      label: 'Run Bail Bloc',
+      label: 'Run Recovery Bloc',
       type: 'checkbox',
       checked: true,
       click: toggleMiner
     },
     {type: 'separator'},
-    {
-      label: 'Stats',
-      click() {
-        let statsWindow = makeWindow('stats-p5.html', {
-          width: 800,
-          height: 582,
-          resizable: false,
-          minimizable: false,
-          maximizable: false
-        });
-        statsWindow.uuid = mySettings.uuid;
-        statsWindow.initialXMR = mySettings.initialXMR;
-        statsWindow.installedTimestamp = mySettings.installedTimestamp;
-      }
-    },
     {
       label: 'About',
       click() {

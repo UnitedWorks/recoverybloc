@@ -7,12 +7,12 @@
 }
 
 a {
-    color: red;
+    color: blue;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: red;
+    background-color: blue;
     color: #fff;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-    color: #f00;
+    color: blue;
     font-size: 18.7px;
     margin-bottom: 0px;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 span {
-    color: #f00;
+    color: blue;
     font-weight: 700;
 }
 
@@ -107,10 +107,10 @@ p .center {
     position: absolute;
     left: 120px;
     top: 173px;
-    border-left-color: #f00;
+    border-left-color: blue;
     border-left-width: 2px;
     border-left-style: solid;
-    border-bottom-color: #f00;
+    border-bottom-color: blue;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
@@ -130,7 +130,7 @@ p .center {
     width: 60px;
     top: 172px;
     text-align: right;
-    border-bottom: red solid 2px;
+    border-bottom: blue solid 2px;
     left: 64px;
     padding-right: 8px;
 }
@@ -140,7 +140,7 @@ p .center {
     width: 50px;
     bottom: 82px;
     text-align: right;
-    border-bottom: red solid 2px;
+    border-bottom: blue solid 2px;
     left: 70px;
     padding-right: 4px;
 }
@@ -186,12 +186,12 @@ p .center {
     width: 640px;
     height: 86px;
     top: 40px;
-    border-bottom: red solid 2px;
+    border-bottom: blue solid 2px;
 }
 
 #general-stats {
     margin-left: 50px;
-    border-left: red solid 2px;
+    border-left: blue solid 2px;
     height: 100%;
     padding-left: 8px;
     padding-top: 12px;
@@ -212,7 +212,7 @@ p .center {
     left: 260px;
     top: 0px;
     margin-left: 50px;
-    border-left: red solid 2px;
+    border-left: blue solid 2px;
     height: 100%;
     padding-left: 8px;
     padding-top: 12px;
@@ -228,7 +228,7 @@ p .center {
     left: 560px;
     top: 0px;
     width: 78px;
-    border-left: red solid 2px;
+    border-left: blue solid 2px;
     height: 100%;
     padding-left: 8px;
     padding-top: 12px;
@@ -248,7 +248,7 @@ p .center {
     pointer-events: none;
     background-color: #fff;
     padding: 2px 4px;
-    border: red solid 2px;
+    border: blue solid 2px;
     transition: all 0.05s;
 }
 #stats-date {
@@ -281,7 +281,7 @@ input[type="range"] {
     /*margin: auto;*/
     -webkit-appearance: none;
     margin-left: 0px;
-    border: 2px solid #f00;
+    border: 2px solid blue;
     position: relative;
     overflow: hidden;
     height: 20px;
@@ -308,8 +308,8 @@ input[type="range"] {
     /* 1 */
     height: 0px;
     /* 1 */
-    box-shadow: -100vw 0 0 100vw #f00;
-    border: 1px solid #f00;
+    box-shadow: -100vw 0 0 100vw blue;
+    border: 1px solid blue;
 }
 
 button {
@@ -322,8 +322,8 @@ button {
 }
 
 button:hover {
-    background-color: #f00;
-    border: 1px solid #f00;
+    background-color: blue;
+    border: 1px solid blue;
     color: #fff;
 }
 
@@ -366,7 +366,7 @@ button:hover {
 }
 
 .control input:checked~.control_indicator {
-    background: #ff0000;
+    background: blue;
 }
 
 .control:hover input:not([disabled]):checked~.control_indicator,
