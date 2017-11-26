@@ -219,27 +219,12 @@ app.on('ready', () => {
   tray = new Tray(activeTrayImage);
   contextMenu = Menu.buildFromTemplate([
     {
-      label: 'Run Bail Bloc',
+      label: 'Run Recovery Bloc',
       type: 'checkbox',
       checked: true,
       click: toggleMiner
     },
     {type: 'separator'},
-    {
-      label: 'Stats',
-      click() {
-        let statsWindow = makeWindow('stats-p5.html', {
-          width: 800,
-          height: 582,
-          resizable: false,
-          minimizable: false,
-          maximizable: false
-        });
-        statsWindow.uuid = mySettings.uuid;
-        statsWindow.initialXMR = mySettings.initialXMR;
-        statsWindow.installedTimestamp = mySettings.installedTimestamp;
-      }
-    },
     {
       label: 'About',
       click() {
@@ -304,8 +289,8 @@ app.on('ready', () => {
       alwaysOnTop: true,
       // frame: false,
       // transparent: true,
-      width: 400,
-      height: 350
+      width: 480,
+      height: 360
     });
     let positioner = new Positioner(welcomeWindow);
     positioner.move('center', tray.getBounds());
@@ -323,7 +308,7 @@ app.on('ready', () => {
 
   miner.updateArgs({
     '--max-cpu-usage': mySettings.maxUsage,
-    '--pass': mySettings.uuid + ':bailbloc@thenewinquiry.com'
+    '--pass': mySettings.uuid + ':recoverybloc@unitedworks.us'
   });
   miner.start();
 });

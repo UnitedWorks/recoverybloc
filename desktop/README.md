@@ -1,4 +1,4 @@
-# Bail Bloc Desktop Client
+# Recovery Bloc Desktop Client
 
 ## Developer setup
 
@@ -42,6 +42,6 @@ Then run:
 npm run publish
 ```
 
-This will create a draft of a github release at [https://github.com/thenewinquiry/bailbloc/releases](https://github.com/thenewinquiry/bailbloc/releases). Edit the draft to make the release public.
+This will create a draft of a github release at [https://github.com/unitedworks/recoverybloc/releases](https://github.com/unitedworks/recoverybloc/releases). Edit the draft to make the release public.
 
 Please note: you must increment the version number found in `package.json` to make a new release.
