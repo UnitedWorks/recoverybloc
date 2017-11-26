@@ -43,8 +43,8 @@
 
 
     function getRelease() {
-        var defaultURL = 'https://github.com/thenewinquiry/bailbloc/releases/latest';
-        var apiURL = 'https://api.github.com/repos/thenewinquiry/bailbloc/releases/latest';
+        var defaultURL = 'https://github.com/unitedworks/recoverybloc/releases/latest';
+        var apiURL = 'https://api.github.com/repos/unitedworks/recoverybloc/releases/latest';
         var userAgent = navigator.userAgent;
 
         if (/Mac/.test(userAgent)) {
