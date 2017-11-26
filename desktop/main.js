@@ -289,8 +289,8 @@ app.on('ready', () => {
       alwaysOnTop: true,
       // frame: false,
       // transparent: true,
-      width: 400,
-      height: 350
+      width: 480,
+      height: 360
     });
     let positioner = new Positioner(welcomeWindow);
     positioner.move('center', tray.getBounds());
