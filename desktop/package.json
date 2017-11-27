@@ -1,6 +1,6 @@
 {
   "name": "recoverybloc",
-  "version": "1.0.0",
+  "version": "10.0.0",
   "description": "converts computational cycles in disaster recovery funds",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "publish": "electron-builder -mw -p always",
     "postinstall": "electron-builder install-app-deps"
   },
-  "author": "The New Inquiry",
+  "author": "United Works + The New Inquiry",
   "license": "ISC",
   "devDependencies": {
     "electron": "^1.6.11",
